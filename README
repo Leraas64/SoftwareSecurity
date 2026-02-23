@@ -1,1 +1,27 @@
+#Briefly summarize your client, Artemis Financial, and its software requirments. Who was the client? What issue did the company want you to address?
 
+Artemis Financial was a business that offered its customers financial plans. They wanted to keep their customers protected from hackers. Specifically, they wanted me to find vulnerabilities within their code.
+
+#What did you do well when you found your client's software security vulnerabilities? Why is it important to code securely? What value does software security add to a company's overall well-being?
+
+When finding the vulnerabilites, I thought I did well on finding what section was causing the vulnerability. I'm not sure how to fix most vulnerabilities yet, but in these projects most of them just needed to be updated. It is very important to write secure code to prevent exploits from outside hackers. With improper coding anyone can manipulate data with the correct combination of inputs. Overall having secure software can protect both the company's data and the customer's data.
+
+#Which part of the vulnerability assessment was challenging or helpful to you?
+
+In the beginning the Maven Dependency Check was a struggle. The process was simple to implement, but for whatever reason my check had several issues. At first it was running the incorrect JRE and instead it ran something else causing an error. After that was fixed, I struggled more and became very frustrated. After a week of trying alot of other fixes, I tried using a previous version of the dependency check. It worked! For some reason the latest version did not work on the first check. Every subsequent check worked just fine with the latest version of Maven Dependency Check. I'm still not sure hwy that first check was such a struggle, but I felt very accomplished after solving that.
+
+#How did you increase layers in security? In the future, what would you use to assess vulnerabilites and decide whihc mitigation techniques to use?
+
+There were alot of layers to bolstering the codes defenses. The base layer was the code itself, then of course securing links by implementing HTTPS into the code. Going even further we could add Firewalls and two-factor verification as well. In future assessments, I would use the same tools as the Dependency Check was very helpful in telling me which parts needed fixing and how to fix them. Using Ciphers was also pretty easy and safe to use given the use of the keytool.
+
+#How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+
+I would refactor the code and make sure each input needed from the user were only inputs needed from the device. Otherwise there is potential that the user can change the code using their own input. After refactoring the code, I ran the program again to ensure it worked properly. After a successful run, I would run another dependency check to see if I introduce anything new, if not I considered it a mission success!
+
+#What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+
+While researching solutions for the Maven Dependency Check, I came across many solutions on StackOverflow. I try to see if anyone has posted about a problem similar to mine and see if they have a solution that works for me. Unfortunatley it wasn't very helpful for that incident, but any other time I was stuck they ususally had a few answers that were helpful.
+
+#Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show to future employers from this assignment?
+
+I would definitley show them this second project as I feel that it shows my skills very well with screenshots as proof. I am also very proud of how far I have come since the beginning of this semester. I was a bit worried that this class would be the end of my career, but I have prevailed and have learned alot.
